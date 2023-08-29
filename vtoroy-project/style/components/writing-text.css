@@ -1,0 +1,113 @@
+.writing-text{
+    display: flex;
+    width: 672px;
+    max-width: 672px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10%;
+    gap: 20px;
+}
+.writing-text-heading{
+    display: flex;
+    padding: 4px 11.86px 4px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    background: #E4F5F5;
+    color: #09726D;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    text-transform: uppercase;
+}
+.writing-text-titul{
+    color: #27272A;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px; /* 122.222% */
+    letter-spacing: -0.72px;
+}
+.writing-text-desc{
+    color: #52525B;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+}
+.writing-text-block{
+    display: flex;
+    width: 672px;
+    padding: 28px 133.92px 0px 133.92px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.writing-text-btn{
+    display: flex;
+    height: 40px;
+    padding: 10px 17px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    border-radius: 4px;
+    background: #005450;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+.writing-text-btn-link{
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+}
+.writing-text-link{
+    color: #09726D;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .writing-text-desc{
+        display: flex;
+        width: 80%;
+    }
+}
+@media (max-width: 426px) {
+    .writing-text{
+        width: 85%;
+        max-width: 85%;
+    }
+    .writing-text-titul{
+        line-height: 38px;
+        font-size: 29px;
+    }
+    .writing-text-desc{
+        line-height: 25px;
+        font-size: 17px;
+    }
+    .writing-text-block{
+        /* width: 85%; */
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 375px) {
+    
+}
