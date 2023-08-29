@@ -1,0 +1,20 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500;900&family=Yellowtail&display=swap');
+
+@import url(/style/components/body.css);
+@import url(/style/components/header.css);
+@import url(/style/components/hero.css);
+@import url(/style/components/banner.css);
+@import url(/style/components/about-us.css);
+@import url(/style/components/categories.css);
+@import url(/style/components/testimonial.css);
+@import url(/style/components/offer.css);
+@import url(/style/components/who-we-are.css);
+@import url(/style/components/gallery.css);
+@import url(/style/components/blog.css);
+@import url(/style/components/newslatter.css);
+@import url(/style/components/footer.css);
+@import url(/adaptive.css);

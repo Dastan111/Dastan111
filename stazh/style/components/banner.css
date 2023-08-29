@@ -1,0 +1,118 @@
+.banner{
+    display: flex;
+    width: 75%;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    flex-wrap: wrap;
+}
+.banner__block{
+    width: 47%;
+    height: 367px;
+    display: flex;
+    position: relative;
+}
+.banner__block-img{
+    border-radius: 30px;
+}
+.banner__block-text-block{
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.banner__block-text-block-p1{
+    color: #FFF;
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.banner__block-text-block-p2{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner__block-text-block-p3{
+    color: #7EB693;
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.banner__block-text-block-p4{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+@media only screen and (max-width:1440px){
+    .banner{
+    display: flex;
+    width: 75%;
+    height: 1100px;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    justify-content: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    flex-wrap: wrap;
+}
+.banner__block{
+    width: 57%;
+    height: 367px;
+    display: flex;
+    position: relative;
+}
+.banner__block-img{
+    border-radius: 30px;
+}
+.banner__block-text-block{
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.banner__block-text-block-p1{
+    color: #FFF;
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.banner__block-text-block-p2{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner__block-text-block-p3{
+    color: #7EB693;
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.banner__block-text-block-p4{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+}
